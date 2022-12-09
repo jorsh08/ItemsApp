@@ -1,8 +1,12 @@
 import React from 'react'
+import Form from './Main/Form'
 
 function Main() {
   return (
-    <div>Main</div>
+    <div className='Main'>
+      <Form/>
+    </div>
+      
   )
 }
 

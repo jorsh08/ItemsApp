@@ -1,0 +1,26 @@
+.item{
+    width: 200px;
+    height: 222px;
+    border: 1px solid #000;
+}
+
+.icono{
+    width: 200px;
+    height: 180px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador{
+    width: 200px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputItem{
+    text-align: center;
+}
