@@ -67,35 +67,39 @@ const items = [
 
 function Form() {
   return (
-    <div className='container'>
-        <div className='row item'>
-            <div className='col'>
-                <div className='row icono'>
-                    <div className='row'>
-                        <div className='col d-flex justify-content-center'>
-                            <img src={imagen1}/>
+    <>
+        {items.map((item) => (
+            <div className='container'  key={item.id}>
+                <div className='row item ' >
+                    <div className='col'>
+                        <div className='row icono'>
+                            <div className='row'>
+                                <div className='col d-flex justify-content-center'>
+                                    <img src={imagen1}/>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <div className='col d-flex justify-content-center'>
+                                    <h1>{item.titulo}</h1>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col d-flex justify-content-center'>
-                            <h1>Titulo</h1>
+                        <div className='row contador'>
+                            <div className='col d-flex justify-content-center'>
+                                <input type='button' className='w-100' value='-'></input>
+                            </div>
+                            <div className='col-6 d-flex justify-content-center'>
+                                <input type='text' className='w-100 inputItem' disabled value={item.cantidad}></input>
+                            </div>
+                            <div className='col d-flex justify-content-center'>
+                                <input type='button' className='w-100' value='+'></input>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div className='row contador'>
-                    <div className='col d-flex justify-content-center'>
-                        <input type='button' className='w-100' value='-'></input>
-                    </div>
-                    <div className='col-6 d-flex justify-content-center'>
-                        <input type='text' className='w-100 inputItem' disabled></input>
-                    </div>
-                    <div className='col d-flex justify-content-center'>
-                        <input type='button' className='w-100' value='+'></input>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        ))}
+    </>
   )
 }
 

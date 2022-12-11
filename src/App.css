@@ -1,4 +1,26 @@
 .App {
     height: 100vh;
-    background-color: aqua;
+    background-color: rgba(253, 146, 85, 1);
+    
+}
+
+.container{
+    border: 1px solid black;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main{
+    width: 800px;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    border: 1px solid black;
 }
