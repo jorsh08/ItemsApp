@@ -1,0 +1,35 @@
+.tarjeta{
+    width: 180px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo{
+    font-size: 12px;
+}
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    border: 1px solid black;
+}
+
+.ass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}

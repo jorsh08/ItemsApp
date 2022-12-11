@@ -1,0 +1,7 @@
+.Main{
+    max-width: 1400px;
+    min-height: 700px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 200px;
+}
