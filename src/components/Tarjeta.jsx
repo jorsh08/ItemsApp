@@ -7,8 +7,10 @@ function Tarjeta({titulo}) {
         <div className='card-body'>
             <h4 className='titulo'>{titulo}</h4>
         </div>
-        <div>
+        <div className='botones'>
             <button>+</button>
+            <input type="text" className='contador' disabled/>
+            <button>-</button>
         </div>
     </div>
   )
