@@ -3,6 +3,7 @@ import Tarjetas from './Tarjetas'
 import TituloSeleccion from './TituloSeleccion'
 import './Main.css'
 import Formulario from './Formulario'
+import Informacion from './Informacion'
 
 function Main() {
   return (
@@ -13,10 +14,10 @@ function Main() {
             <TituloSeleccion/>
             <Tarjetas/>
             <Formulario/>
+            <Informacion/>
           </div>
         </div>
       </div>
-    
     </>
     )
 }
