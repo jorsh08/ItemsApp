@@ -15,3 +15,20 @@
     background: rgba(249, 249, 249, 1);
 
 }
+
+.clear{
+    width: 222.21px;
+    height: 61.16px;
+    background: #FFFFFF;
+    border: 2px solid #FD9255;
+    border-radius: 5px;
+    color: rgba(34, 34, 34, 1);
+}
+
+.calculate{
+    width: 222.21px;
+    height: 61.16px;
+    background: #FD9255;
+    border-radius: 5px;
+    border: none;
+}

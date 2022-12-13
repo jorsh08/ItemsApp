@@ -1,27 +1,46 @@
 .tarjeta{
-    width: 180px;
+    width: 140px;
     height: 150px;
     background-color: rgba(255, 255, 255, 1);
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,.90);
     border-radius: 5px;
-}
-
-.card-body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
+.item{
+    display: flex;
+    justify-content: center;
+}
+
+.itemIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
 .titulo{
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
+
+.boton{
+    width: 30px;
+    border: none;
+    background-color: rgba(226, 226, 226, 1);
+}
+
 .botones{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 45%;
 }
 
 .tarjetas{
@@ -31,5 +50,8 @@
 }
 
 .contador{
-    width: 100px;
+    width: 80px;
+    background-color:'#E2E2E2';
+    border: none;
+    text-align: center;
 }

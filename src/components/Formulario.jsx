@@ -6,12 +6,12 @@ function Formulario() {
     <div className='row'>
             <div className='col'>
                 <div className='boxBotones'>
-                    <button>Clear</button>
+                    <button className='clear'>Clear</button>
                 </div>
             </div>
             <div className='col'>
                 <div className='boxBotones'>
-                    <button>Calculate</button>
+                    <button className='calculate'>Calculate</button>
                 </div>
             </div>
     </div>

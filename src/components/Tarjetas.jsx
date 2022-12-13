@@ -64,9 +64,9 @@ const items = [
     },
     {
       id: '11',
-      titulo: 'Closet',
+      titulo: 'Microwave',
       cantidad: 0,
-      metros: 2
+      metros: 0.8
     },
     {
       id: '12',
@@ -78,10 +78,10 @@ const items = [
 
 function Tarjetas() {
   return (
-    <div className="row">
+    <div className="row ">
         {items.map((item) =>(
             <div className='col-xl-2 col-md-4 col-6 tarjetas' key={item.id}>
-                <Tarjeta titulo={item.titulo}/>
+                <Tarjeta titulo={item.titulo} imagen={"src/components/"+item.id+".png"} cantidad={item.cantidad}/>
             </div>
         ))}
     </div>
