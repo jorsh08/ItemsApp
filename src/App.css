@@ -1,7 +1,7 @@
-.App {
+.MainBG {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    background-color: #F5F5F5;
 }
 

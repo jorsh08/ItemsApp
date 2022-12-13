@@ -9,8 +9,9 @@
 .resultados{
     width: 250px;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
     padding: 10px;
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    background: rgba(249, 249, 249, 1);
+
 }

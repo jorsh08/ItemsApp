@@ -80,7 +80,7 @@ function Tarjetas() {
   return (
     <div className="row">
         {items.map((item) =>(
-            <div className='col-lg-2 col-md-4 col-6 tarjetas' key={item.id}>
+            <div className='col-xl-2 col-md-4 col-6 tarjetas' key={item.id}>
                 <Tarjeta titulo={item.titulo}/>
             </div>
         ))}

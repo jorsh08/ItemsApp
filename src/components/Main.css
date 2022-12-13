@@ -1,6 +1,7 @@
 .Main{
     max-width: 1700px;
+    min-width: 500;
     height: 100%;
-    border: 1px solid black;
+    
 }
 
