@@ -13,8 +13,19 @@ function Footer() {
                   </div>
                 </div>
                 <div className='row'>
-                  <div className='col pt-5'>
+                  <div className='col pt-3 d-flex justify-content-center'>
                       <h6 className='inf'>It is a long established fact that a reader will be distracted by the readable content of a page whenters.</h6>
+                  </div>
+                </div>
+                <div className='row d-flex justify-content-center'>
+                  <div className='col-3 mx-1 pt-5 d-flex justify-content-center '>
+                  <img src="src/components/tw.png" alt=""/>
+                  </div>
+                  <div className='col-3 mx-1 pt-5 d-flex justify-content-center'>
+                  <img src="src/components/fb.png" alt=""/>
+                  </div>
+                  <div className='col-3 mx-1 pt-5 d-flex justify-content-center'>
+                  <img src="src/components/insta.png" alt=""/>
                   </div>
                 </div>
             </div>
@@ -75,7 +86,10 @@ function Footer() {
                   <h6 className='d-flex justify-content-center'>Email: info@challenge.com</h6>
                 </div>
                 <div className="row">
-                  <h6 className='d-flex justify-content-center'>Contact</h6>
+                  <div className="d-flex justify-content-center pt-4">
+                    <img src="src/components/wha.png"  alt=""/>
+                  </div>
+                  
                 </div>
             </div>
           </div>
