@@ -18,6 +18,7 @@ function App() {
       <div className='MainBG'>
         <Main/>
       </div>
+      <Footer/>
     </div>
     </>
     

@@ -35,6 +35,8 @@
     width: 30px;
     border: none;
     background-color: rgba(226, 226, 226, 1);
+    border-radius: 5px;
+    height: 35px;
 }
 
 .botones{
@@ -54,4 +56,5 @@
     background-color:'#E2E2E2';
     border: none;
     text-align: center;
+    height: 35px;
 }

@@ -1,0 +1,21 @@
+.bgFooter{
+    background: #FD9255;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.inf{
+    font-size: 10px;
+    width: 200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.imginf{
+    display: flex;
+    align-items: center;
+}
