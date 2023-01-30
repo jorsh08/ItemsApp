@@ -3,19 +3,21 @@ import Tarjetas from './Tarjetas'
 import TituloSeleccion from './TituloSeleccion'
 import './Main.css'
 import Formulario from './Formulario'
-import Informacion from './Informacion'
+import ItemsState from './ItemsState'
 
 function Main() {
+
   return (
     <>
       <div className="Main">
         <div className='row'>
           <div className='col'>
-            <TituloSeleccion/>
-            <Tarjetas/>
-            <Formulario/>
-            <Informacion/>
-          </div>
+            <ItemsState>
+              <TituloSeleccion/>
+              <Tarjetas />
+              <Formulario />
+            </ItemsState>
+            </div>
         </div>
       </div>
     </>
