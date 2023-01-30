@@ -4,83 +4,83 @@ export const items = [
         titulo: 'Beds',
         cantidad: 0,
         metros: 1.2,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/1.png'
     },
     {
         id: '2',
         titulo: 'Refrigerador',
         cantidad: 0,
         metros: 1,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/2.png'
     },
     {
         id: '3',
         titulo: 'Furniture',
         cantidad: 0,
         metros: 0.5,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/3.png'
     },
     {
         id: '4',
         titulo: 'Oven',
         cantidad: 0,
         metros: 0.6,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/4.png'
     },
     {
         id: '5',
         titulo: 'Sofa',
         cantidad: 0,
         metros: 1.5,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/5.png'
     },
     {
         id: '6',
         titulo: 'TV',
         cantidad: 0,
         metros: 0.25,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/6.png'
     },
     {
         id: '7',
         titulo: 'Washer-dryer',
         cantidad: 0,
         metros: 0.5,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/7.png'
     },
     {
         id: '8',
         titulo: 'Dining',
         cantidad: 0,
         metros: 2,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/8.png'
     },
     {
         id: '9',
         titulo: 'Desk',
         cantidad: 0,
         metros: 0.75,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/9.png'
     },
     {
         id: '10',
         titulo: 'Wardrobe',
         cantidad: 0,
         metros: 3.2,
-        img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+        img: '/media/10.png'
     },
     {
       id: '11',
       titulo: 'Microwave',
       cantidad: 0,
       metros: 0.8,
-      img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+      img: '/media/11.png'
     },
     {
       id: '12',
       titulo: 'Computer',
       cantidad: 0,
       metros: 0.5,
-      img: 'https://www.mediafire.com/view/muzvo6pyzhz90xj/1.png/file'
+      img: '/media/12.png'
     }
 ]

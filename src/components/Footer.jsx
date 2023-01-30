@@ -9,7 +9,7 @@ function Footer() {
             <div className='row'>
                 <div className='row'>
                   <div className='col mt-5 d-flex justify-content-center' >
-                      <img src="src/components/home.png" alt=""/>
+                      <img src="media/home.png" alt=""/>
                   </div>
                 </div>
                 <div className='row'>
@@ -19,13 +19,13 @@ function Footer() {
                 </div>
                 <div className='row d-flex justify-content-center'>
                   <div className='col-3 mx-1 pt-5 d-flex justify-content-center '>
-                  <img src="src/components/tw.png" alt=""/>
+                  <img src="media/tw.png" alt=""/>
                   </div>
                   <div className='col-3 mx-1 pt-5 d-flex justify-content-center'>
-                  <img src="src/components/fb.png" alt=""/>
+                  <img src="media/fb.png" alt=""/>
                   </div>
                   <div className='col-3 mx-1 pt-5 d-flex justify-content-center'>
-                  <img src="src/components/insta.png" alt=""/>
+                  <img src="media/insta.png" alt=""/>
                   </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ function Footer() {
                 </div>
                 <div className="row">
                   <div className="d-flex justify-content-center pt-4">
-                    <img src="src/components/wha.png"  alt=""/>
+                    <img src="media/wha.png"  alt=""/>
                   </div>
                   
                 </div>

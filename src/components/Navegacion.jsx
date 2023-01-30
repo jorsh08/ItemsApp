@@ -9,7 +9,7 @@ function Navegacion() {
     <>
     <Navbar className='bgNav'  expand="md">
                 <Container>
-                    <Navbar.Brand><img src="src/components/home.png" alt="" /></Navbar.Brand>
+                    <Navbar.Brand><a href="#!"><img src="media/home.png" alt=""/></a></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto nv">

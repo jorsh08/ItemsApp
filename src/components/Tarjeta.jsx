@@ -21,6 +21,7 @@ function Tarjeta({titulo, imagen, id, cantidad}) {
                   <div className='row'>
                     <div className='col'>
                       <div className='row'>
+                        <img src={imagen}/>
                       </div>
                       <div className='row'>
                         <h4 className='titulo'>{titulo}</h4>
@@ -30,6 +31,7 @@ function Tarjeta({titulo, imagen, id, cantidad}) {
               </div>
           </div>
           <div className='botones'>
+                  
                   <button className='boton' onClick={aumentar}>+</button>
                   <input type="text" className='contador' value={cantidad} disabled/>
                   <button className='boton' onClick={reducir}>-</button>
