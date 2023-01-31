@@ -1,9 +1,17 @@
 import React, {useState,  useContext } from 'react'
-import MyContext from "./MyContext";
-import './Tarjeta.css'
+import MyContext from "./context/MyContext";
+import './css/Tarjeta.css'
+
+const SecondaryComponent = ({id}) => (
+  <div>
+    <h3>{id}</h3>
+  </div>
+);
 
 function Tarjeta({titulo, imagen, id, cantidad}) {
   const {incrementar, restar} = useContext(MyContext);
+  const [hover, setHover] = useState(false)
+  const [itemSelect, setItemSelect] = useState(null)
 
   const aumentar = () => {
     incrementar(id)
@@ -12,11 +20,23 @@ function Tarjeta({titulo, imagen, id, cantidad}) {
   const reducir = () => {
     restar(id)
   }
+
+  const handleMouseEnter = (id) => {
+    setHover(true)
+    setItemSelect(id)
+  }
+
+  const handleMouseLeave = () => {
+    setHover(false)
+    setItemSelect(null)
+  }
+
   return (
     <>
       <div className='row'>
         <div className='col'>
-          <div className='tarjeta'>
+          {hover && itemSelect && (<SecondaryComponent id={id}/>)}
+          <div onMouseEnter={() => {handleMouseEnter(id)}} onMouseLeave={handleMouseLeave} className='tarjeta'>
               <div className='item'>
                   <div className='row'>
                     <div className='col'>

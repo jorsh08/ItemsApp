@@ -1,7 +1,6 @@
 import React, { useContext, useEffect }  from 'react'
-import MyContext from "./MyContext";
+import MyContext from "./context/MyContext";
 import Tarjeta from './Tarjeta'
-
 
 function Tarjetas() {
   const itemsContext = useContext(MyContext);

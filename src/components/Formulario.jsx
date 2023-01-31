@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from 'react'
-import './Formulario.css'
-import './Informacion.css'
-import MyContext from "./MyContext";
+import './css/Formulario.css'
+import './css/Informacion.css'
+import MyContext from "./context/MyContext";
 function Formulario() {
     const {limpiarItems, calcularTotal, listaItems, select, espacio, descuento, total} = useContext(MyContext);
     useEffect(() => {

@@ -1,9 +1,9 @@
 import React from 'react'
 import Tarjetas from './Tarjetas'
 import TituloSeleccion from './TituloSeleccion'
-import './Main.css'
 import Formulario from './Formulario'
 import ItemsState from './ItemsState'
+import './css/Main.css'
 
 function Main() {
 

@@ -2,8 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link, Outlet } from 'react-router-dom';
-import './Navegacion.css'
+import { Outlet } from 'react-router-dom';
+import './css/Navegacion.css'
+
 function Navegacion() {
   return (
     <>

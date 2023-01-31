@@ -1,8 +1,8 @@
 import React, { useReducer } from "react";
-import MyContext from './MyContext'
-import ItemsReducer from './ItemsReducer'
-import { GET_ITEMS, INCREMENTAR, RESTAR, LIMPIAR_ITEMS, SELECT, ESPACIO, DESCUENTO, TOTAL } from './Types'
-import {items as data} from './items'
+import MyContext from './context/MyContext'
+import ItemsReducer from './context/ItemsReducer'
+import { GET_ITEMS, INCREMENTAR, RESTAR, LIMPIAR_ITEMS, SELECT, ESPACIO, DESCUENTO, TOTAL } from './context/Types'
+import {items as data} from './context/items'
 
 
 const ItemsState = (props) => {
