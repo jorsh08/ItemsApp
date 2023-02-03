@@ -3,23 +3,18 @@ import './css/Formulario.css'
 import './css/Informacion.css'
 import MyContext from "./context/MyContext";
 function Formulario() {
-    const {limpiarItems, calcularTotal, listaItems, select, espacio, descuento, total} = useContext(MyContext);
+    const {limpiarItems, listaItems, select, espacio, descuento, total} = useContext(MyContext);
     useEffect(() => {
         listaItems();
       }, []);
   return (
     <>
     <div className='row'>
-            <div className='col'>
-                <div className='boxBotones'>
-                    <button className='clear' onClick={limpiarItems}>Clear</button>
-                </div>
+        <div className='col'>
+            <div className='boxBotones'>
+                <button className='clear' onClick={limpiarItems}>Clear</button>
             </div>
-            <div className='col'>
-                <div className='boxBotones'>
-                    <button className='calculate' onClick={calcularTotal}>Calculate</button>
-                </div>
-            </div>
+        </div>
     </div>
     <div className='row'>
         <div className='col'>

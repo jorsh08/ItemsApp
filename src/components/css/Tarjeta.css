@@ -58,3 +58,25 @@
     text-align: center;
     height: 35px;
 }
+
+.InfoCard{
+    position: absolute;
+    display: grid;
+    align-items: center;
+}
+
+.DatosInfoCard{
+    display: grid;
+    align-items: center;
+    width: 100px;
+    height: 130px;
+    border: none;
+    text-align: center;
+    background-color: rgba(226, 226, 226, 1);
+    border-radius: 10px;
+}
+
+.tituloCard{
+    font-size: 15px;
+    color:black;
+}

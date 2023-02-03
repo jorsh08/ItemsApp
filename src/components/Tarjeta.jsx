@@ -2,13 +2,16 @@ import React, {useState,  useContext } from 'react'
 import MyContext from "./context/MyContext";
 import './css/Tarjeta.css'
 
-const SecondaryComponent = ({id}) => (
-  <div>
-    <h3>{id}</h3>
+const SecondaryComponent = ({titulo, metros}) => (
+  <div className='InfoCard'>
+    <div className='DatosInfoCard'>
+      <h4 className='tituloCard'>{titulo}</h4>
+      <h5 >{metros} m<sup>2</sup></h5>
+    </div>
   </div>
 );
 
-function Tarjeta({titulo, imagen, id, cantidad}) {
+function Tarjeta({titulo, imagen, id, cantidad, metros}) {
   const {incrementar, restar} = useContext(MyContext);
   const [hover, setHover] = useState(false)
   const [itemSelect, setItemSelect] = useState(null)
@@ -21,9 +24,9 @@ function Tarjeta({titulo, imagen, id, cantidad}) {
     restar(id)
   }
 
-  const handleMouseEnter = (id) => {
+  const handleMouseEnter = (titulo, metros) => {
     setHover(true)
-    setItemSelect(id)
+    setItemSelect(titulo, metros)
   }
 
   const handleMouseLeave = () => {
@@ -31,13 +34,23 @@ function Tarjeta({titulo, imagen, id, cantidad}) {
     setItemSelect(null)
   }
 
+  const handleMouseClick = (titulo, metros) => {
+    if (hover){
+      setHover(false)
+      setItemSelect(null)
+    }else{
+      setHover(true)
+      setItemSelect(titulo, metros)
+    }
+  }
+
   return (
     <>
       <div className='row'>
         <div className='col'>
-          {hover && itemSelect && (<SecondaryComponent id={id}/>)}
-          <div onMouseEnter={() => {handleMouseEnter(id)}} onMouseLeave={handleMouseLeave} className='tarjeta'>
+          <div onMouseEnter={() => {handleMouseEnter(titulo, metros)}} onMouseLeave={handleMouseLeave} onClick={()=> {handleMouseClick(titulo, metros)}} className='tarjeta'>
               <div className='item'>
+              {hover && itemSelect && (<SecondaryComponent titulo={titulo} metros={metros}/>)}
                   <div className='row'>
                     <div className='col'>
                       <div className='row'>
